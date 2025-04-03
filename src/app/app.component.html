@@ -1,0 +1,545 @@
+<header class="fixed inset-x-0 z-40 top-0 bg-azul_01 py-2   sm:py-2">
+  <div class="px-4 mx-auto max-w-7xl   sm:px-6 lg:px-4">
+    <div class="flex items-center justify-between h-16   lg:h-[72px]">
+      <!-- Logo -->
+      <div class="flex items-center flex-shrink-0   sm:ml-4 lg:ml-0">
+        <a href="#inicio" class="inline-flex">
+          <img class="w-auto h-14" src="../assets/imagens/logo-clinica.png" alt="Logo">
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden   sm:mr-4 md:block lg:flex lg:items-center lg:space-x-5 lg:ml-16 lg:mr-0 xl:ml-14">
+
+        <a href="#sobre" title=""
+          class="text-sm pl-1 pr-1 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Quem sou eu
+        </a>
+
+        <a href="#terapia" title=""
+          class="text-sm pl-1 pr-1 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Por que terapia
+        </a>
+
+        <a href="#ajuda" title=""
+          class="text-sm pl-1 pr-1 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Como posso ajudar
+        </a>
+
+        <a href="#mensagem" title=""
+          class="text-sm pl-1 pr-1 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Converse comigo
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button (click)="toggleMenu()" type="button"
+        class="p-2 -m-2 transition-all duration-200 md:hidden">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="lg:hidden" *ngIf="showMenu" [class.block]="showMenu">
+      <nav class="flex flex-col mt-4 space-y-2">
+        <a href="#sobre" title=""
+          class="text-sm pr-2 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Quem sou eu
+        </a>
+
+        <a href="#terapia" title=""
+          class="text-sm pr-2 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Por que terapia
+        </a>
+
+        <a href="#ajuda" title=""
+          class="text-sm pr-2 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Como posso ajudar
+        </a>
+
+        <a href="#mensagem" title=""
+          class="text-sm pr-2 font-medium transition-all duration-200 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          Converse comigo
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section id="inicio">
+  <div class="max-w-7xl mx-auto px-4    md:mx-auto">
+    <div class="flex mt-20  md:mx-2 lg:mx-0">
+
+      <div class="col-span-1 text-center   md:col-span-5 md:text-left md:py-12 md:px-4 lg:px-0">
+        <div class="mx-auto  md:mx-0 md:text-left md:w-full lg:max-w-2xl">
+          <h2 class="sombra mt-12 text-3xl font-bold leading-tight   sm:text-4xl sm:font-normal">
+            Sinta, compreenda, transforme.
+          </h2>
+        </div>
+        <br />
+        <p class="mt-4 text-lg">
+          Sentir-se desafiado é humano. Não enfrente isso sozinho.
+          Ajudarei você a reconectar com sua essência e encontrar
+          equilíbrio através da psicoterapia.
+        </p>
+        <br />
+        <a
+          href="#" target="_blank"
+          title=""
+          class="custom-botao custom-botao-hover pulse mb-10 inline-flex items-center justify-center mt-8 px-6 py-2 text-xl font-semibold rounded-lg"
+          role="button">
+          Entre em contato&nbsp;
+          <i class="fab fa-whatsapp fa-lg font-normal"></i>
+        </a>
+      </div>
+
+      <div class="hidden md:block mgWebTop">
+        <img
+          class="object-cover max-h-[780px]"
+          src="../assets/imagens/psicologa-02.png"
+          alt="Psicóloga-01" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="ajuda" class="py-12 bg-gray-100 sm:py-16 lg:py-10 xl:py-20">
+  <div class="mx-4 sm:px-4 sm:mx-4 md:px-6 md:mx-auto lg:px-8 max-w-7xl">
+
+    <div class="max-w-full text-center px-2 mx-auto lg:max-w-full lg:mx-0 items-start justify-between">
+      <h2 class="sombra text-3xl font-light leading-tight  sm:text-4xl whitespace-normal break-words">
+        Como podemos te ajudar?
+      </h2>
+      <p class="text-xl font-light mt-4 md:w-2/3 mx-auto">
+        Entenda como nosso método pode te ajudar a
+        alcançar o bem estar mental.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 text-center gap-y-12  md:text-left md:grid-cols-4 md:gap-x-14 mt-12 lg:mt-16">
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco md:min-h-[300px]">
+        <div class="inline-flex items-center justify-center w-24 shrink-0  md:w-12">
+          <img src="../assets/imagens/online.png" alt="imagem">
+        </div>
+
+        <div class="mt-4 font-light">
+          <h3 class="text-2xl">Terapia online por vídeo chamada</h3>
+          <p class="mt-4 text-md">
+            Mais facilidade com a mesma qualidade esigilo da terapia presencial.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0 md:w-12">
+          <img src="../assets/imagens/silencio.png" alt="imagem">
+        </div>
+
+        <div class="mt-4 font-light">
+          <h3 class="text-2xl">Terapia Presencial na clínica</h3>
+          <p class="mt-4 text-md">
+            Para quem está na região de São Luís - MA
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0  md:w-12">
+          <img src="../assets/imagens/cerebro.png" alt="imagem">
+        </div>
+
+        <div class="mt-4 font-light">
+          <h3 class="text-2xl">Sigilo completo sobre seu caso</h3>
+          <p class="mt-4 text-md">
+            Jamais compartilhamos qualquer informação sobre suas sessões.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0 md:w-12">
+          <img src="../assets/imagens/certificado-01.png" alt="imagem">
+        </div>
+
+        <div class="mt-4 font-light">
+          <h3 class="text-2xl">Profissional certificado</h3>
+          <p class="mt-4 text-md">
+            Seja acompanhado por uma profissional com registro CRP 08/38938.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="mensagem" class="py-12 sm:py-16 lg:py-10 xl:py-20">
+  <div class="mx-4 sm:px-4 md:px-6 md:mx-auto lg:px-8 max-w-7xl">
+    
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-light leading-tight  md:text-4xl whitespace-normal break-words">
+        Se você percebe alguns desses sinais, é hora de buscar ajuda.
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 gap-y-10  sm:grid-cols-3 md:grid-cols-6 md:gap-x-2 lg:grid-cols-6 lg:gap-x-4">
+      <div class="box font-semibold text-center p-6 rounded-lg">
+        <div class="inline-flex items-center justify-center w-32 shrink-0 sm:w-20">
+          <img src="../assets/imagens/sofrimento.png" alt="">
+        </div>
+        <h3 class="text-2xl sm:text-lg">
+          Sofrimento e crises existenciais sem motivo claro
+        </h3>
+      </div>
+
+      <div class="box font-semibold text-center p-6 rounded-lg">
+        <div class="inline-flex items-center justify-center w-32 shrink-0 sm:w-20">
+          <img src="../assets/imagens/baixa.png" alt="">
+        </div>
+        <h3 class="text-2xl sm:text-lg">
+          Anciedade, depressão, baixa autoestima
+        </h3>
+      </div>
+
+      <div class="box font-semibold text-center p-6 rounded-lg">
+        <div class="inline-flex items-center justify-center w-32 shrink-0 sm:w-20">
+          <img src="../assets/imagens/enxaqueca.png" alt="">
+        </div>
+        <h3 class="text-2xl sm:text-lg">
+          Esgotamento físico, mental e emocional
+        </h3>
+      </div>
+
+      <div class="box font-semibold text-center p-6 rounded-lg">
+        <div class="inline-flex items-center justify-center w-32 shrink-0 sm:w-20">
+          <img src="../assets/imagens/duvida.png" alt="">
+        </div>
+        <h3 class="text-2xl sm:text-lg">
+          Dificuldade em gerar transformações positivas
+        </h3>
+      </div>
+
+      <div class="box font-semibold text-center p-6 rounded-lg">
+        <div class="inline-flex items-center justify-center w-32 shrink-0 sm:w-20">
+          <img src="../assets/imagens/pensamento-negativo-01.png" alt="">
+        </div>
+        <h3 class="text-2xl sm:text-lg">
+          Pensamentos negativos sobre si mesmo
+        </h3>
+      </div>
+
+      <div class="box font-semibold text-center p-6 rounded-lg">
+        <div class="inline-flex items-center justify-center w-32 shrink-0 sm:w-20">
+          <img src="../assets/imagens/bipolar-01.png" alt="">
+        </div>
+        <h3 class="text-2xl sm:text-lg">
+          Dificuldade em expressar e sentir emoções
+        </h3>
+      </div>
+      
+    </div>
+
+    <div class="text-center mt-4 sm:mt-6">
+      <h2 class="text-2xl px-2 font-pj leading-tight  sm:text-2xl sm:font- whitespace-normal break-words md:text-2xl md:font-light md:px-24">
+        saiba que buscar ajuda não é sinal de fraqueza, mas de força. Fale com um
+        profissional de confiança isso pode fazer uma enorme diferença.
+      </h2>
+      <br />
+      <a
+        href="#"
+        title=""
+        class="custom-botao custom-botao-hover pulse inline-flex items-center justify-center px-6 py-2 text-xl font-semibold rounded-lg"
+        role="button">
+          Entre em contato&nbsp;
+        <i class="fab fa-whatsapp fa-lg font-normal"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="grid grid-cols-1 my-10  md:mt-10 md:my-0 md:grid-cols-2 mx-auto max-w-7xl">
+    <div class="mx-auto">
+      <img class="mx-auto" src="../assets/imagens/sobre.jpeg" alt="" style="width: 62%;">
+    </div>
+    <div class="px-4 text-center md:text-left sm:flex sm:items-center sm:px-6">
+      <div class="">
+        <h3 class="py-8 text-3xl  sm:text-3xl">Olá. Me chamo Vera Iaconelli</h3>
+        <h4 class="text-2xl font-pj  sm:text-xl sm:font-normal">Sua Aliada para Mudanças Significativas na Vida:</h4>
+        <p class="py-2 font-pj text-xl sm:text-lg">
+          Como psicóloga clínica, trago não apenas experiência, mas uma
+          paixão por impulsionar transformações significativas. <br>
+          Meu comprometimento é oferecer suporte nos momentos desafiadores
+          e ser sua parceira em todo o processo.
+        </p><br>
+
+        <h4 class="text-2xl font-pj  sm:text-xl sm:font-normal">Expertise em Psicanálise com Base Sólida:</h4>
+        <p class="py-2 font-pj text-xl sm:text-lg sm:pb-6">
+          Sou formada pela renomada PUCPR e atualmente em pós-graduação em
+          Psicanálise clínica, minha abordagem é fundamentada na Teoria
+          da Psicanálise. <br>
+          Aqui, encontramos respostas e desvendamos caminhos para seu
+          bem-estar emocional.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sessao-05" class="py-12 bg-gray-100 sm:py-16 lg:py-10 xl:py-20">
+  <div class="mx-4 sm:px-4 sm:mx-4 md:px-6 md:mx-auto lg:px-8 max-w-7xl">
+
+    <div class="max-w-full text-center px-2 mx-auto lg:max-w-full lg:mx-0 items-start justify-between">
+      <h2 class="sombra text-3xl font-light leading-tight  sm:text-4xl whitespace-normal break-words">
+        O que os nossos clientes falam sobre nós:
+      </h2>
+      <p class="text-xl font-light mt-4 md:w-2/3 mx-auto">
+        Eles escolheram compartilhar suas expêriencias com você
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 text-center gap-y-12  md:text-left md:grid-cols-2 md:gap-x-10 mt-12 lg:mt-16">
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0  md:w-14">
+          <img src="../assets/imagens/estrelas-01.png" alt="imagem">
+        </div>
+
+        <div class="font-light">
+          <h3 class="text-2xl">Ana Lúcia Mendes</h3>
+          <p class="mt-4 text-md italic">
+            "Dra. Vera, seu atendimento foi um divisor de águas para mim.
+            A forma como você me ajudou a entender meus padrões de autossabotagem,
+            sem julgamentos, mas com firmeza, fez toda a diferença.
+            Sua escuta atenta e suas intervenções precisas me deram clareza
+            para tomar decisões que eu adiava há anos. Sou imensamente grata!"
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0 md:w-14">
+          <img src="../assets/imagens/estrelas-01.png" alt="imagem">
+        </div>
+
+        <div class="font-light">
+          <h3 class="text-2xl">Carlos Eduardo Rocha</h3>
+          <p class="mt-4 text-md italic">
+            "Sempre fui cético em relação à terapia, mas suas sessões me surpreenderam.
+            Você conseguiu criar um espaço seguro onde pude falar sobre minhas dificuldades
+            sem me sentir exposto. Sua habilidade em conectar minhas questões atuais
+            com experiências passadas foi brilhante. Hoje me sinto mais confiante
+            e menos refém da minha própria ansiedade."
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0  md:w-14">
+          <img src="../assets/imagens/estrelas-01.png" alt="imagem">
+        </div>
+
+        <div class="font-light">
+          <h3 class="text-2xl">Mariana Fonseca</h3>
+          <p class="mt-4 text-md italic">
+            "Depois de passar por vários terapeutas, finalmente encontrei na Dra. Vera
+            alguém que não apenas me escutou, mas verdadeiramente me entendeu.
+            Sua abordagem me ajudou a lidar com a culpa que sentia em relação ao divórcio
+            e à maternidade. Suas palavras eram como um farol nos meus dias mais confusos.
+            Recomendo seu trabalho sem hesitar!"
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0 md:w-14">
+          <img src="../assets/imagens/estrelas-01.png" alt="imagem">
+        </div>
+
+        <div class="font-light">
+          <h3 class="text-2xl">Rafael Torres</h3>
+          <p class="mt-4 text-md italic">
+            "Como homem, sempre achei difícil falar sobre vulnerabilidade,
+            mas seu jeito direto e acolhedor me fez repensar isso.
+            Você não permitiu que eu me escondesse atrás de racionalizações
+            e me ajudou a enfrentar medos que eu nem sabia que tinha.
+            Saio das sessões com insights que levam semanas para digerir 
+            no melhor sentido possível!"
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0 md:w-14">
+          <img src="../assets/imagens/estrelas-01.png" alt="imagem">
+        </div>
+
+        <div class="font-light">
+          <h3 class="text-2xl">Juliana Almeida</h3>
+          <p class="mt-4 text-md italic">
+            "Sua terapia me salvou em um momento de profunda crise existencial.
+            Você não ofereceu respostas prontas, mas me guiou para que eu
+            encontrasse as minhas próprias. A maneira como você trabalha com
+            silêncios e perguntas certeiras é incrível. Hoje me sintonizo melhor
+            com minhas emoções e limites, e isso mudou minha vida profissional e pessoal."
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center p-6 borda rounded-lg  md:items-start lg:flex-col bloco">
+        <div class="inline-flex items-center justify-center w-24 shrink-0 md:w-14">
+          <img src="../assets/imagens/estrelas-01.png" alt="imagem">
+        </div>
+
+        <div class="font-light">
+          <h3 class="text-2xl">Pedro Henrique Lima</h3>
+          <p class="mt-4 text-md italic">
+            "Procurei a Dra. Vera para lidar com o luto após perder meu pai,
+            e seu cuidado foi fundamental no meu processo. Você respeitou meu tempo,
+            mas também me incentivou a não estagnar na dor. Suas metáforas e insights
+            me ajudaram a ressignificar a relação que tive com ele.
+            Sou grato por cada sessão, foram meu porto seguro."
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="terapia" class="py-12 sm:py-16 lg-py-10">
+  <div class="text-center mx-4 sm:px-4 sm:mx-4 sm:text-center md:px-6 md:mx-auto lg:px-8 max-w-7xl">
+    <div>
+      <h2 class="sombra mx-auto max-w-3xl text-2xl px-2 font-pj leading-tight  sm:text-2xl sm:font-pj whitespace-normal break-words md:max-w-4xl md:text-2xl md:font-pj md:px-24">
+        "O objetivo da terapia é capacitar a pessoa a
+        encontrar sua própria autonomia, permitindo-lhe
+        ser autêntica e traçar seu próprio caminho."
+      </h2>
+      <br />
+      <a
+        href="#"
+        title=""
+        class="custom-botao custom-botao-hover pulse inline-flex items-center justify-center px-6 py-2 text-xl font-semibold rounded-lg"
+        role="button">
+          Entre em contato&nbsp;
+        <i class="fab fa-whatsapp fa-lg font-normal"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="sessao-07" class="py-12 sm:py-16 lg:py-10">
+  <div class="text-center mx-4 sm:px-4 sm:mx-6 max-w-7xl sm:mx-auto">
+    <div>
+      <h2 class="sombra mx-auto max-w-3xl text-2xl px-2 font-pj leading-tight  
+      sm:text-3xl sm:font-pj whitespace-normal break-words md:max-w-4xl md:text-4xl md:font-pj md:px-24">
+        Perguntas Frequentes <span>FAQ</span>
+      </h2>
+    </div>
+
+    <div class="md:flex md:gap-x-10">
+
+      <div class="grid grid-cols-1 text-left gap-y-4 md:w-2/4  md:gap-x-10 mt-12 lg:mt-16">
+        <details class="px-2 borda-faq rounded-lg">
+          <summary class="text-lg font-medium text-gray-900">
+            Será que este site é profissional e confiável?</summary>
+          <p class="mt-2 text-lg  md:mt-0 md:col-span-7 sm:text-base md:pl-4">
+            Sim, sou uma profissional credenciada pelo conselho de psicologia regional,
+            portanto tenho um número de registro (CRP 08/38938) que você poderá consultar.</p>
+        </details>
+  
+        <details class="px-2 borda-faq rounded-lg">
+          <summary class="text-lg font-medium text-gray-900">
+            Será que este tratamento é realmente sigiloso?</summary>
+          <p class="mt-2 text-lg  md:mt-0 md:col-span-7 sm:text-base md:pl-4">
+            Sim, sou uma profissional credenciada pelo conselho de psicologia regional
+            (CRP 08/38938), e sigo o seu o código de ética, então você está segura.</p>
+        </details>
+  
+        <details class="px-2 borda-faq rounded-lg">
+          <summary class="text-lg font-medium text-gray-900">
+            Será que meu sofrimento tem solução e dá para realmente para mudar isso?</summary>
+          <p class="mt-2 text-lg  md:mt-0 md:col-span-7 sm:text-base md:pl-4">
+            Sim, os nossos comportamentos são adquiridos durante a nossa história
+            de vida, entender mais sobre ele te da poder da mudança.</p>
+        </details>
+      </div>
+
+      <div class="grid grid-cols-1 text-left gap-y-4 mt-4  md:w-2/4 md:gap-x-10 md:mt-12 lg:mt-16">
+        <details class="px-2 borda-faq rounded-lg">
+          <summary class="text-lg font-medium text-gray-900">
+            Será que ela irá me julgar enquanto eu estiver falando sobre o que fiz ou sinto?</summary>
+          <p class="mt-2 text-lg  md:mt-0 md:col-span-7 sm:text-base md:pl-4">
+            De jeito nenhum, o meu papel como terapeuta é entender os seus
+            comportamentos, e não julgar você.</p>
+        </details>
+  
+        <details class="px-2 borda-faq rounded-lg">
+          <summary class="text-lg font-medium text-gray-900">
+            Será que vai ser dito que eu tenho culpa de tudo?</summary>
+          <p class="mt-2 text-lg  md:mt-0 md:col-span-7 sm:text-base md:pl-4">
+            De jeito nenhum, como disse acima todos os seus comportamentos foram
+            aprendidos ao longo da sua história, e o processo terapêutico te
+            ajuda a entender qual a sua construção para fazer o que faz hoje,
+            então eu nunca vou culpá-la.</p>
+        </details>
+  
+        <details class="px-2 borda-faq rounded-lg">
+          <summary class="text-lg font-medium text-gray-900">
+            Atendimento online funciona igual e tão bem quanto presencial?</summary>
+          <p class="mt-2 text-lg  md:mt-0 md:col-span-7 sm:text-base md:pl-4">
+            Sim, é indispensável que você tenha uma internet e um dispositivo
+            de qualidade, e também um ambiente privado e seguro onde se sinta à vontade
+            para conversar, tendo isso teremos tanto sucesso quanto no presencial.</p>
+        </details>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer id="rodape" class="pb-8 md:py-4 bg-azul_01">
+  <div class="text-center mx-4 sm:px-4 sm:mx-8 sm:grid sm:grid-cols-3 max-w-7xl sm:mx-auto">
+
+    <div class="flex items-center justify-center py-4  sm:justify-start">
+      <a href="#inicio" class="inline-flex">
+        <img class="w-auto h-14" src="../assets/imagens/logo-clinica.png" alt="Logo">
+      </a>
+      <!-- <img src="../assets/imagens/logo-clinica.png" class="w-auto h-14" alt=""> -->
+    </div>
+
+    <div class="desenvolvimento">
+      <p>CNPJ: 28.714.140/0001-40 <br>
+        Copyright &copy; 2024, todos os direitos reservados <br>
+        <a target="_blank" href="https://www.linkedin.com/in/jheymisson-martins-b0a0742a4/">
+          Desenvolvido por <span>Jheymis Martins</span></a>
+      </p>
+    </div>
+
+    <div class="contato sm:flex sm:justify-end">
+      <div>
+        <h3 class="my-4 sm:mb-4 sm:mt-0">Contato</h3>
+        <div>
+          <a href="#" class="border py-3 px-4 rounded-md mr-2" >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" class="border py-3 px-4 rounded-md mr-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="border py-3 px-4 rounded-md mr-2">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="border py-3 px-4 rounded-md">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>

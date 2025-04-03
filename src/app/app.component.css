@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+/* @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+} */
+
+header a, button{
+   color: white; 
+}
+
+header a:hover, button:hover{
+    color: #a7ccdf
+}
+
+/* --------------------------------------------- BOTÃO ENTRE EM CONTATO -------------------------------------------------------- */
+.custom-botao{
+   /* margin-left: -15px; */
+   color: white;
+   text-shadow: 1px 1px 20px #23374d;
+   /* background: linear-gradient(30deg, #0400ff,  #00f7ff); */
+   background: #0400ff;
+   /* font-size: 1.2em;
+   font-weight: 400;
+   border-radius: 10px; */
+   box-shadow: 2px 2px 3px #23374d;
+}
+
+.custom-botao:hover{
+   color: white;
+   background: linear-gradient(30deg, #23374d,  #4b6381);
+   border: 1px solid black;
+}
+
+@keyframes pulse {
+   0%,
+   100% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.1);
+   }
+ }
+ .pulse {
+   animation: pulse 2s infinite;
+ }
+
+ @keyframes pulse {
+   0% {
+     box-shadow: 0 0 0 0 #0400ff;
+   }
+   70% {
+     box-shadow: 0 0 0 10px #585bf300;
+   }
+   100% {
+     box-shadow: 0 0 0 50px #5862f300;
+   }
+ }
+/* --------------------------------------------- BOTÃO ENTRE EM CONTATO -------------------------------------------------------- */
+
+.sombra{
+  text-shadow: 1px 1px 1px #23374d;
+}
+
+.borda{
+  border: 1px solid #7c7c7c;
+}
+
+
+/* --------------------------------------------- SESSÃO 01 -------------------------------------------------------- */
+#inicio{
+   color: white;
+   background: #a7ccdf;;
+}
+
+/* --------------------------------------------- SESSÃO 02 -------------------------------------------------------- */
+#ajuda{
+  color: white;
+  background: #6990af;;
+}
+
+.bloco{
+  background: #23374d96;
+}
+
+/* --------------------------------------------- SESSÃO 03 -------------------------------------------------------- */
+#mensagem{
+  background: #e9e6df;
+}
+
+#mensagem h2{
+  color: #014284;
+  text-shadow: 1px 1px 1px white;
+}
+
+#mensagem h3{
+  color: #6990af;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+#mensagem .box:hover{
+  transform: translateY(-1);
+  box-shadow: 0px 0px 20px 2px #a3a3a3;
+}
+
+/* --------------------------------------------- SESSÃO 04 -------------------------------------------------------- */
+#sobre{
+  background: white;
+}
+
+#sobre h3{
+  color: #014284;
+  text-shadow: 1px 1px 1px #b4b4b4;
+}
+
+#sobre h4{
+  color: #40b6e4;
+}
+
+#sobre p{
+  color: #6990af;
+}
+
+/* --------------------------------------------- SESSÃO 05 -------------------------------------------------------- */
+#sessao-05{
+  background: #4b6381;
+  color: white;
+}
+
+#sessao-05 .bloco{
+  border-radius: 30px 0 30px 0;
+  /* background: #6990af; */
+  background: #23374d96;
+}
+
+#sessao-05 .bloco:hover{
+  box-shadow: 0px 0px 8px 2px white;
+}
+
+/* --------------------------------------------- SESSÃO 06 -------------------------------------------------------- */
+#terapia{
+  background: #6990af;
+  color: white;
+}
+
+/* --------------------------------------------- SESSÃO 07 -------------------------------------------------------- */
+#sessao-07{
+  background: #a7ccdf;
+  color: white;
+}
+
+#sessao-07 summary{
+  text-shadow: 1px 1px 2px #4b6381;
+}
+
+.borda-faq{
+  border: 3px solid #4b6381;
+}
+
+#sessao-07 p{
+  color: #014284;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+#rodape{
+  color: white;
+}
+
+#rodape i:hover{
+  background: white;
+  color: black;
+}
+
+#rodape .contato a:hover{
+  background: white;
+  color: black;
+}
+
+#rodape .desenvolvimento span:hover{
+  color: #00ffff;
+}
