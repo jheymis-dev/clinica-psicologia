@@ -12,20 +12,22 @@
   }
 } */
 
-/* @font-face {
-  font-family: 'Montserrat';
-  src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
 header a, button{
    color: white; 
 }
 
 header a:hover, button:hover{
     color: #a7ccdf
+}
+
+/* --------------------------------------------- FONTE DE TEXTO -------------------------------------------------------- */
+@font-face {
+  font-family: montserrat;
+  src: url(../assets/fonts/montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+.myfont{
+  font-family: montserrat;
 }
 
 /* --------------------------------------------- BOTÃO ENTRE EM CONTATO -------------------------------------------------------- */
@@ -86,31 +88,30 @@ header a:hover, button:hover{
 #inicio{
    color: white;
    background: #a7ccdf;
-   /* font-family: 'Montserrat', sans-serif; */
 }
 
 #inicio img{
   filter: brightness(77%); /* 50% = metade da luminosidade (quanto menor, mais escuro) */
 }
 
-.bg-mobile-only {
+/* .bg-mobile-only {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/imagens/atendimento-01.png');
   background-size: cover;
   background-position: top;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
   .bg-mobile-only {
     background-image: none;
   }
-}
+} */
 
 .bg-mobile-only-02 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/imagens/paisagem.png');
   background-size: cover;
   background-position: top;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 @media (min-width: 1024px) {
