@@ -4,7 +4,6 @@ Landing page desenvolvida como projeto front-end utilizando Angular, com foco em
 
 O projeto simula o site institucional de uma clínica de psicologia, priorizando design limpo, navegação clara e experiência do usuário.
 
----
 
 ## Tecnologias Utilizadas
 
@@ -16,13 +15,11 @@ O projeto simula o site institucional de uma clínica de psicologia, priorizando
 - NPM
 - Git & GitHub
 
----
 
 ## Objetivo do Projeto
 
 Desenvolver uma landing page institucional moderna utilizando Angular, aplicando conceitos de componentização, responsividade e organização modular.
 
----
 
 ## Funcionalidades Implementadas
 
@@ -33,7 +30,6 @@ Desenvolver uma landing page institucional moderna utilizando Angular, aplicando
 - Estilização utilizando Tailwind CSS
 - Estrutura modular organizada
 
----
 
 ## Como Executar o Projeto Localmente
 
@@ -69,7 +65,6 @@ Para executar o projeto é necessário ter instalado:
 - NPM
 - Angular CLI
 
----
 
 ## Deploy
 
@@ -77,7 +72,6 @@ Projeto publicado na Vercel:
 
 👉 https://clinica-psicologia-blond.vercel.app/
 
----
 
 ## Aprendizados
 
@@ -89,7 +83,6 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
 - Versionamento de código com Git
 - Organização de projeto front-end
 
----
 
 ## Autor
 
