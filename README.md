@@ -1,27 +1,99 @@
-# ClinicaPsicologia
+# Clínica Psicologia Blond
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+Landing page desenvolvida como projeto front-end utilizando Angular, com foco em organização de layout, responsividade e boas práticas de estruturação de interface.
 
-## Development server
+O projeto simula o site institucional de uma clínica de psicologia, priorizando design limpo, navegação clara e experiência do usuário.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Tailwind CSS
+- NPM
+- Git & GitHub
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Objetivo do Projeto
 
-## Running unit tests
+Desenvolver uma landing page institucional moderna utilizando Angular, aplicando conceitos de componentização, responsividade e organização modular.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Funcionalidades Implementadas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Estruturação de layout utilizando Angular
+- Componentização de seções da página
+- Layout responsivo (Mobile First)
+- Organização semântica de HTML
+- Estilização utilizando Tailwind CSS
+- Estrutura modular organizada
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Como Executar o Projeto Localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/jheymis-dev/clinica-psicologia.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd clinica-psicologia
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o servidor de desenvolvimento:
+
+```bash
+ng serve --open
+```
+
+## Pré-requisitos
+
+Para executar o projeto é necessário ter instalado:
+
+- Node.js
+- NPM
+- Angular CLI
+
+---
+
+## Deploy
+
+Projeto publicado na Vercel:
+
+👉 https://clinica-psicologia-blond.vercel.app/
+
+---
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
+
+- Organização e estruturação de layout
+- Responsividade com Tailwind CSS
+- Componentização no Angular
+- Versionamento de código com Git
+- Organização de projeto front-end
+
+---
+
+## Autor
+
+Desenvolvido por **Jheymisson Martins Ferreira**
+
+GitHub: https://github.com/jheymis-dev  
+LinkedIn: https://linkedin.com/in/jheymisson-martins-dev
